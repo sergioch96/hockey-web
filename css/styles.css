@@ -1,0 +1,12 @@
+/** HEADER **/
+#nav-list a {
+	font-size: 1.1em;
+}
+
+#nav-list a:hover {
+	background-color: #e3dfdf;
+}
+
+.active {
+	background-color: #e3dfdf
+}
