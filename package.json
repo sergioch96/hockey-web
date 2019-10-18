@@ -1,0 +1,30 @@
+{
+  "name": "hockey-web",
+  "version": "1.0.0",
+  "description": "Hockey web application prototype",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioch96/hockey-web.git"
+  },
+  "author": "Sergio Chamorro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioch96/hockey-web/issues"
+  },
+  "homepage": "https://github.com/sergioch96/hockey-web#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
