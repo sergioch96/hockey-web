@@ -8,7 +8,22 @@
 }
 
 .active {
-	background-color: #e3dfdf
+	background-color: #e3dfdf;
+}
+
+.list-unstyled a {
+	text-decoration: none;
+	color: #000;
+}
+
+.list-unstyled a:hover {
+	color: #b3b4b7;
+	background-color: rgb(219, 221, 225);
+}
+
+.list-unstyled .active {
+	background-color: rgb(219, 221, 225);
+	color: #b3b4b7;
 }
 
 .jumbotron {
@@ -22,4 +37,11 @@
 
 .carousel .carousel-item {
     height: 300px; 
+}
+
+footer {
+  background-color: rgb(219, 221, 225);
+  color: #000;
+  margin: 0px auto;
+  padding: 20px 0px;
 }
